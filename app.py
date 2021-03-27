@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, SAST' + str(np.random.rand(1)) + '!'
+    return 'Hello, JPO here is a random number: ' + str(np.random.rand(1)) + '!'
